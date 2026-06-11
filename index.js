@@ -1,14 +1,11 @@
-const title = document.createElement("h1");
-title.innerText = "hola hades";
+const user = {
+  name: "hades",
+  age: 30,
+};
 
-const button = document.createElement("button");
-button.innerText = "click";
+function printUserInfo(user) {
+  return "<h> hola " + user.name + "</h>";
+}
+console.log(printUserInfo(user));
 
-button.addEventListener("click", function () {
-  title.innerText =
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, voluptatibus. Accusamus, aspernatur. Doloremque, tempora. Officiis natus deserunt consequatur, laboriosam architecto perspiciatis pariatur inventore adipisci. Exercitationem nemo accusantium molestias eligendi saepe.,";
-  alert("se realizo un click");
-});
-
-document.body.append(title);
-document.body.append(button);
+document.body.innerHTML = printUserInfo(user);
