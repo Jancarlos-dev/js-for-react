@@ -33,3 +33,17 @@ console.log(newProduct);
 //
 // Esto se llama Shorthand Property Names y sirve para escribir
 // el mismo código de una forma más corta y limpia.
+
+const title = document.createElement("h1");
+const price = document.createElement("p");
+const description = document.createElement("p");
+const stock = document.createElement("p");
+
+const product = {
+  title,
+  price,
+  description,
+  stock,
+};
+
+console.log(product);
