@@ -1,11 +1,8 @@
-const user = {
-  name: "hades",
-  age: 30,
-};
+const button = document.createElement("button");
+button.innerText = "Click me";
 
-function printUserInfo(user) {
-  return "<h> hola " + user.name + "</h>";
-}
-console.log(printUserInfo(user));
+button.addEventListener("click", function () {
+  alert("Button clicked!");
+});
 
-document.body.innerHTML = printUserInfo(user);
+document.body.append(button);
