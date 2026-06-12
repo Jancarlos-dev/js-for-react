@@ -17,3 +17,11 @@ const edadFutura = (edad) => {
 };
 
 console.log(edadFutura(25));
+
+// Arrow Function en forma corta.
+//
+// Recibe un nombre y retorna un mensaje personalizado.
+
+const bienvenida = (nombre) => `Bienvenido ${nombre}`;
+
+console.log(bienvenida("Jean Carlos"));
