@@ -7,3 +7,13 @@ const usuario = () => {
 };
 
 console.log(usuario());
+
+// Arrow Function con parámetros.
+//
+// Recibe una edad y retorna cuántos años tendrá en 10 años.
+
+const edadFutura = (edad) => {
+  return edad + 10;
+};
+
+console.log(edadFutura(25));
