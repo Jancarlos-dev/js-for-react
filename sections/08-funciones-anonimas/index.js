@@ -30,3 +30,14 @@ const saludo = function () {
 };
 
 console.log(saludo());
+
+// Aquí practiqué una función anónima que recibe parámetros.
+//
+// Recibe dos números (a y b), los suma y retorna el resultado.
+// Luego ejecuto la función pasando los valores 5 y 3.
+
+const sumar = function (a, b) {
+  return a + b;
+};
+
+console.log(sumar(5, 3));
