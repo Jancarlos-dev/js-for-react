@@ -59,3 +59,15 @@ button.addEventListener("click", function () {
 });
 
 document.body.appendChild(button);
+
+// Aquí practiqué una IIFE anónima.
+//
+// La función no tiene nombre y se ejecuta inmediatamente.
+// No necesito llamarla después porque termina con })().
+//
+// Para acordarme:
+// Si veo })() al final, la función corre de una vez.
+
+(function () {
+  console.log("Me ejecuté de una vez");
+})();
