@@ -19,3 +19,14 @@ console.log(
     return "starting...";
   })(),
 );
+
+// Aquí practiqué una función anónima guardada en una variable.
+//
+// La función retorna el texto "Hola".
+// Luego la ejecuto con saludo() y muestro el resultado en consola.
+
+const saludo = function () {
+  return "Hola";
+};
+
+console.log(saludo());
