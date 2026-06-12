@@ -36,3 +36,17 @@ const compra = (producto, precio) => {
 };
 
 console.log(compra("Proteína", 2500));
+
+// Arrow Function dentro de un evento.
+//
+// Cuando hago click en el botón,
+// muestra un mensaje en pantalla.
+
+const button = document.createElement("button");
+button.innerText = "Mostrar mensaje";
+
+button.addEventListener("click", () => {
+  alert("Aprendiendo Arrow Functions");
+});
+
+document.body.appendChild(button);
