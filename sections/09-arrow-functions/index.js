@@ -25,3 +25,14 @@ console.log(edadFutura(25));
 const bienvenida = (nombre) => `Bienvenido ${nombre}`;
 
 console.log(bienvenida("Jean Carlos"));
+
+// Arrow Function con varios parámetros.
+//
+// Recibe el producto y el precio.
+// Luego retorna un mensaje de compra.
+
+const compra = (producto, precio) => {
+  return `Compraste ${producto} por RD$${precio}`;
+};
+
+console.log(compra("Proteína", 2500));
