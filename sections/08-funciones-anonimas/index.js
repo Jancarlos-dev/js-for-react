@@ -41,3 +41,21 @@ const sumar = function (a, b) {
 };
 
 console.log(sumar(5, 3));
+
+// Aquí practiqué una función anónima dentro de addEventListener().
+//
+// 1. Creé un botón.
+// 2. Le agregué un texto.
+// 3. Le agregué un evento click.
+// 4. La función anónima se ejecuta cuando hago click.
+// 5. Muestra un alert en pantalla.
+// 6. Finalmente agregué el botón al body.
+
+const button = document.createElement("button");
+button.innerText = "Click me";
+
+button.addEventListener("click", function () {
+  alert("Hiciste click");
+});
+
+document.body.appendChild(button);
