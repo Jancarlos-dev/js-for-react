@@ -41,3 +41,9 @@ console.log(showarray());
 // - Números
 // - Booleanos
 // - Arrays
+
+// Creé una Arrow Function llamada showtext.
+// Esta función retorna el texto "Hello World!".
+const showtext = () => {
+  return "Hello World!";
+};
