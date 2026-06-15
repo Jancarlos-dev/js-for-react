@@ -63,3 +63,9 @@ const showboolean = () => true;
 
 // Esta Arrow Function retorna un arreglo.
 const showarray = () => [1, 2, 3];
+
+// Ejecuté cada función para ver qué retorna.
+console.log(showtext2());
+console.log(shownumber());
+console.log(showboolean());
+console.log(showarray());
