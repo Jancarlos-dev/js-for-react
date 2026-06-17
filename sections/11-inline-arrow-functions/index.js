@@ -69,3 +69,27 @@ console.log(showtext2());
 console.log(shownumber());
 console.log(showboolean());
 console.log(showarray());
+
+// Lo que aprendí:
+//
+// Con llaves {} necesito usar return.
+// const ejemplo = () => {
+//   return "Hola";
+// };
+//
+// Sin llaves {} el valor se retorna automáticamente.
+// const ejemplo = () => "Hola";
+//
+// Una Arrow Function puede retornar:
+// - Strings
+// - Números
+// - Booleanos
+// - Arrays
+
+// Nota para mí:
+//
+// Si tengo muchas funciones y no quiero escribir
+// un console.log() para cada una, puedo ponerlas
+// todas dentro de un solo console.log().
+//
+// Ejemplo:
