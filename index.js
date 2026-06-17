@@ -1,10 +1,15 @@
-// const cliente = {
-//   nombre: "hades",
-//   edad: 40,
-//   pais: "republica dominicana",
-// };
-// console.log(cliente);
-
-const frutas = ["manzana", "pera", "uva"];
-
-console.log(frutas);
+console.log(50 * 2);
+console.log(100 / 4);
+console.log(10 + 20);
+console.log(30 - 5);
+console.log(2 ** 3);
+console.log(15 % 4);
+console.log(10 > 5);
+console.log(3 < 7);
+console.log(5 === 5);
+console.log(10 !== 5);
+console.log(10 >= 10);
+console.log(5 <= 3);
+console.log(true && false);
+console.log(true || false);
+console.log(!true);
