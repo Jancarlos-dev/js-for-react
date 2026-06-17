@@ -1,14 +1,10 @@
-const button = document.createElement("button");
-button.innerText = "Click me";
+// const cliente = {
+//   nombre: "hades",
+//   edad: 40,
+//   pais: "republica dominicana",
+// };
+// console.log(cliente);
 
-const isauthorized = false; // This can be set based on your authentication logic
+const frutas = ["manzana", "pera", "uva"];
 
-button.addEventListener("click", () => {
-  if (isauthorized) {
-    alert("esta autorizado");
-  } else {
-    alert("no esta autorizado");
-  }
-});
-
-document.body.appendChild(button);
+console.log(frutas);
