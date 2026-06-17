@@ -1,15 +1,14 @@
-// const showtext = () => {
-//   return "Hello World!";
-// };
+const button = document.createElement("button");
+button.innerText = "Click me";
 
-// console.log(showtext());
+const isauthorized = false; // This can be set based on your authentication logic
 
-const showtext = () => "hades";
-const shownumber = () => 123;
-const showbolean = () => true;
-const showarray = () => [1, 2, 3];
+button.addEventListener("click", () => {
+  if (isauthorized) {
+    alert("esta autorizado");
+  } else {
+    alert("no esta autorizado");
+  }
+});
 
-console.log(showtext());
-console.log(shownumber());
-console.log(showbolean());
-console.log(showarray());
+document.body.appendChild(button);
