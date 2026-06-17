@@ -190,3 +190,7 @@ const frutas = ["manzana", "pera", "uva"];
 
 console.log(frutas);
 //  creando este arreglo frutas, estamos utilizando un Arreglo, el cual se define con corchetes []. Dentro del arreglo, tenemos varios elementos, que en este caso son Strings: "manzana", "pera" y "uva".
+
+// const frutas = ["manzana", "pera", "uva"];
+
+// document.body.innerHTML = frutas;
