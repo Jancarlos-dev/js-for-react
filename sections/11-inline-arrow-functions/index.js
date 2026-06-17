@@ -93,3 +93,16 @@ console.log(showarray());
 // todas dentro de un solo console.log().
 //
 // Ejemplo:
+
+console.log(showtext2(), shownumber(), showboolean(), showarray());
+
+// Resultado:
+// hades 123 true [1, 2, 3]
+//
+// Así ahorro líneas de código y puedo ver varios
+// resultados con un solo console.log().
+
+//   texto: showtext2(),
+//   numero: shownumber(),
+//   booleano: showboolean(),
+//   arreglo: showarray(),
