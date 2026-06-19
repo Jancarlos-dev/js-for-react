@@ -61,3 +61,15 @@
 // let usuario1 = "correo eletronico";
 
 // console.log(usuario, usuario1);
+
+//tipo de dato "string"
+let hades = "jancarlo garcias";
+
+// - .length
+console.log(hades.length);
+
+// - [] indexar
+console.log(hades[0]);
+
+// - indexOf
+console.log(hades.indexOf("j"));
